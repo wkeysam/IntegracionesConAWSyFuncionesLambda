@@ -1,5 +1,5 @@
 #!/bin/bash
-PROFILE="sediaz"
+PROFILE="xxxxx"
 REGION="eu-north-1"
 
 echo "[INFO] Desactivando funciones Lambda (que contengan 'Ocaso')..."
