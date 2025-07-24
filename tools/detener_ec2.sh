@@ -1,6 +1,6 @@
 #!/bin/bash
-PROFILE="sediaz"
-REGION="eu-north-1"
+PROFILE="xxxxx"
+REGION="xx-xxxxx-x"
 
 echo "[INFO] Apagando EC2..."
 INSTANCES=$(aws ec2 describe-instances   --filters "Name=instance-state-name,Values=running"   --query "Reservations[*].Instances[*].InstanceId"   --region "$REGION" --profile "$PROFILE" --output text)
