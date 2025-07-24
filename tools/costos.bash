@@ -5,8 +5,8 @@ echo "=============================="
 echo "     Análisis de Costos AWS    "
 echo "=============================="
 
-PROFILE="sediaz"
-REGION="eu-north-1"
+PROFILE="xxxxx"
+REGION="xx-xxxx-x"
 
 # Definir rango de fechas
 START_DATE=$(date -d "-7 days" +"%Y-%m-%d")
