@@ -1,6 +1,6 @@
 #!/bin/bash
-PROFILE="sediaz"
-REGION="eu-north-1"
+PROFILE="xxxxx"
+REGION="xx-xxxxx-x"
 
 echo "[INFO] Apagando logs de CloudWatch innecesarios..."
 LOG_GROUPS=$(aws logs describe-log-groups   --query "logGroups[?starts_with(logGroupName,'/aws/lambda/')].logGroupName"   --region "$REGION" --profile "$PROFILE" --output text)
